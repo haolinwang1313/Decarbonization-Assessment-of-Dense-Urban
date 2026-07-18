@@ -1,0 +1,10 @@
+﻿dataset_id: xinwu_public
+spatial_resolution: k100
+temporal_mode: repday_opt
+technology_set: base_corrected
+grid_carbon_scenario: baseline
+weights_csv: data/xinwu_public/temporal_weights.csv
+use_existing_weights: true
+n_rep_days: 8
+load_shedding_penalty_yuan_per_kwh: 100000.0
+

@@ -1,0 +1,9 @@
+r2_family,is_valid_result,invalid_reason,run_count
+R2A_fixed_absolute_cap_core,True,,15
+R2B_storage_calendar_sensitivity,True,,35
+R2C_flexibility_ablation_ramped,False,load_shedding,2
+R2C_flexibility_ablation_ramped,True,,18
+R2D_network_abstraction_revised,False,load_shedding,1
+R2D_network_abstraction_revised,True,,17
+R2E_spatial_resolution_revised,False,load_shedding,4
+R2E_spatial_resolution_revised,True,,5

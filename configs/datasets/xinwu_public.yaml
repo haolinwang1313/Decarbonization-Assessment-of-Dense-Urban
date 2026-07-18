@@ -1,0 +1,21 @@
+dataset_id: xinwu_public
+description: Processed Xinwu public reproducibility input package
+data_root: data/xinwu_public
+spatial_resolution: k100
+files:
+  nodes: data/xinwu_public/nodes.csv
+  demand: data/xinwu_public/node_hour_demand.csv
+  pv_potential: data/xinwu_public/pv_potential_by_node.csv
+  wind_potential: data/xinwu_public/wind_potential_by_node.csv
+  pv_availability: data/xinwu_public/pv_availability_by_hour.csv
+  wind_availability: data/xinwu_public/wind_availability_by_hour.csv
+  grid_interface: data/xinwu_public/grid_interface_by_node.csv
+  network_edges: data/xinwu_public/network_edges_spatial_proxy.csv
+  representative_periods: data/xinwu_public/representative_periods.csv
+  temporal_weights: data/xinwu_public/temporal_weights.csv
+  carbon_factors: data/xinwu_public/carbon_factors.csv
+  grid_prices: data/xinwu_public/grid_prices.csv
+  technology_costs: data/xinwu_public/technology_costs.csv
+  storage_parameters: data/xinwu_public/storage_parameters.csv
+  flexibility_parameters: data/xinwu_public/flexibility_parameters.csv
+  uncertainty_ranges: data/xinwu_public/uncertainty_ranges.csv

@@ -1,0 +1,25 @@
+﻿experiment_id: E2_8760_validation
+defaults:
+  dataset_id: xinwu_public
+  spatial_resolution: k100
+  temporal_mode: repday_opt
+  weights_csv: data/xinwu_public/temporal_weights.csv
+  use_existing_weights: true
+  n_rep_days: 8
+  technology_set: base_with_storage_degradation
+matrix:
+  temporal_mode:
+  - repday_opt
+  - full8760_dispatch_validation
+  - full8760_opt
+  co2_cap_ratio:
+  - 1.0
+  - 0.4
+  - 0.25
+  - 0.15
+  - 0.14
+  grid_carbon_scenario:
+  - baseline
+  - '2030'
+  - '2050'
+

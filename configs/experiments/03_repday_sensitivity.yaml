@@ -1,0 +1,24 @@
+﻿experiment_id: E3_repday_sensitivity
+defaults:
+  dataset_id: xinwu_public
+  spatial_resolution: k100
+  temporal_mode: repday_opt
+  weights_csv: data/xinwu_public/temporal_weights.csv
+  use_existing_weights: false
+  n_rep_days: 8
+  technology_set: base_with_storage_degradation
+matrix:
+  n_rep_days:
+  - 7
+  - 14
+  - 21
+  - 30
+  co2_cap_ratio:
+  - 1.0
+  - 0.4
+  - 0.25
+  - 0.15
+  - 0.14
+  grid_carbon_scenario:
+  - baseline
+

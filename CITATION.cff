@@ -1,0 +1,44 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the associated article."
+title: "Conditional cost–emission envelopes for decarbonizing dense urban power systems under spatial renewable scarcity and flexibility constraints"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Haolin
+  - family-names: Wu
+    given-names: Zhi
+  - family-names: Gu
+    given-names: Wei
+  - family-names: Liu
+    given-names: Pengxiang
+  - family-names: Sun
+    given-names: Qirun
+  - family-names: Wang
+    given-names: Wei
+version: "0.1.0"
+date-released: "2026-07-18"
+license: MIT
+doi: "10.1016/j.apenergy.2026.128401"
+repository-code: "https://github.com/haolinwang1313/Decarbonization-Assessment-of-Dense-Urban/tree/open-source-branch"
+url: "https://github.com/haolinwang1313/Decarbonization-Assessment-of-Dense-Urban/tree/open-source-branch"
+preferred-citation:
+  type: article
+  title: "Conditional cost–emission envelopes for decarbonizing dense urban power systems under spatial renewable scarcity and flexibility constraints"
+  authors:
+    - family-names: Wang
+      given-names: Haolin
+    - family-names: Wu
+      given-names: Zhi
+    - family-names: Gu
+      given-names: Wei
+    - family-names: Liu
+      given-names: Pengxiang
+    - family-names: Sun
+      given-names: Qirun
+    - family-names: Wang
+      given-names: Wei
+  journal: "Applied Energy"
+  year: 2026
+  month: 11
+  doi: "10.1016/j.apenergy.2026.128401"
+  url: "https://doi.org/10.1016/j.apenergy.2026.128401"

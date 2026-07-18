@@ -1,0 +1,15 @@
+parameter,low,high,unit
+demand_scale,0.9,1.1,multiplier
+PV_potential_scale,0.8,1.2,multiplier
+PV_capacity_factor_scale,0.9,1.1,multiplier
+wind_potential_scale,0.7,1.3,multiplier
+wind_capacity_factor_scale,0.8,1.2,multiplier
+grid_existing_capacity_scale,0.8,1.2,multiplier
+grid_carbon_factor_scale,0.8,1.2,multiplier
+PV_capex,4000.0,6500.0,CNY/kW
+wind_capex,9000.0,12000.0,CNY/kW
+BESS_power_capex,500.0,1000.0,CNY/kW
+BESS_energy_capex,1000.0,1500.0,CNY/kWh
+BESS_degradation_cost,0.0,0.12,CNY/kWh
+TOU_price_scale,0.85,1.2,multiplier
+DR_fraction,0.0,0.15,fraction

@@ -1,0 +1,17 @@
+experiment_id: public_smoke
+defaults:
+  dataset_id: xinwu_public
+  spatial_resolution: k100
+  temporal_mode: full8760_opt
+  time_slice_start: "2017-01-05 00:00:00"
+  time_slice_hours: 24
+  allow_large_full8760_opt: true
+  aggregate_nodes: true
+  technology_set: base_corrected
+  grid_carbon_scenario: baseline
+  objective: min_cost
+  compute_reference_context: false
+  load_shedding_penalty_yuan_per_kwh: 100000.0
+matrix:
+  co2_cap_ratio:
+    - null

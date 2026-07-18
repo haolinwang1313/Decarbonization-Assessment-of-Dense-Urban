@@ -1,0 +1,21 @@
+fixed_baseline_cap_ratio,co2_cap_mt,metric,p05,p50,p95,n,source_panel,parameter,prcc,target,n_samples,source_valid_runs_only,source_valid_run_count,abs_prcc,target_short,label,flex_case,cost_delta_billion_cny,cost_delta_pct,bess_energy_delta_mwh,bess_power_delta_mw,pv_curtailment_delta_mwh,wind_curtailment_delta_mwh,peak_grid_import_delta_mw,DR_shifted_mwh,thermal_shifted_mwh,flex_short,cost_reduction,bess_reduction,curtailment_reduction
+0.25,1.2068068389438917,total_system_cost_billion_cny,5.533324327472557,6.851221330413747,9.671305485102497,60.0,uncertainty_bands,,,,,,,,,,,,,,,,,,,,,,,
+0.25,1.2068068389438917,actual_emissions_mt,1.206806838943887,1.2068068389438917,1.2068068389438966,60.0,uncertainty_bands,,,,,,,,,,,,,,,,,,,,,,,
+0.14,0.6758118298085793,total_system_cost_billion_cny,7.268055444473985,9.432684905090223,11.4398482028892,31.0,uncertainty_bands,,,,,,,,,,,,,,,,,,,,,,,
+0.14,0.6758118298085793,actual_emissions_mt,0.6758118298085776,0.6758118298085793,0.675811829808582,31.0,uncertainty_bands,,,,,,,,,,,,,,,,,,,,,,,
+0.14,,,,,,,prcc,BESS_energy_capex,-0.6257230606050856,actual_emissions_ton,31.0,True,31.0,0.6257230606050856,Emissions,BESS energy capex | Emissions,,,,,,,,,,,,,,
+0.14,,,,,,,prcc,PV_potential_scale,0.5937284889237447,actual_emissions_ton,31.0,True,31.0,0.5937284889237447,Emissions,PV potential | Emissions,,,,,,,,,,,,,,
+0.14,,,,,,,prcc,grid_existing_capacity_scale,0.5528344158710742,actual_emissions_ton,31.0,True,31.0,0.5528344158710742,Emissions,Grid interface | Emissions,,,,,,,,,,,,,,
+0.14,,,,,,,prcc,demand_scale,-0.4155306113889465,actual_emissions_ton,31.0,True,31.0,0.4155306113889465,Emissions,Demand | Emissions,,,,,,,,,,,,,,
+0.14,,,,,,,prcc,DR_fraction,-0.3423628141730497,actual_emissions_ton,31.0,True,31.0,0.3423628141730497,Emissions,DR fraction | Emissions,,,,,,,,,,,,,,
+0.14,,,,,,,prcc,demand_scale,0.8793587052962066,total_system_cost,31.0,True,31.0,0.8793587052962066,Cost,Demand | Cost,,,,,,,,,,,,,,
+0.14,,,,,,,prcc,grid_carbon_factor_scale,0.8394263529406596,total_system_cost,31.0,True,31.0,0.8394263529406596,Cost,Grid carbon | Cost,,,,,,,,,,,,,,
+0.14,,,,,,,prcc,PV_capacity_factor_scale,-0.8286840970954029,total_system_cost,31.0,True,31.0,0.8286840970954029,Cost,PV CF | Cost,,,,,,,,,,,,,,
+0.14,,,,,,,prcc,PV_potential_scale,-0.8178322970694843,total_system_cost,31.0,True,31.0,0.8178322970694843,Cost,PV potential | Cost,,,,,,,,,,,,,,
+0.14,,,,,,,prcc,BESS_energy_capex,0.7225984770011736,total_system_cost,31.0,True,31.0,0.7225984770011736,Cost,BESS energy capex | Cost,,,,,,,,,,,,,,
+0.14,,,,,,,flexibility,,,,,,,,,,DR10_only,-0.0362132486820421,-0.0033771934206018,-119.9984777278114,-29.99961943195285,-328.9544877609005,6611.385008739424,33.303222661581685,76092.51470554239,0.0,DR only,0.0362132486820421,0.1199984777278114,-6.282430520978523
+0.14,,,,,,,flexibility,,,,,,,,,,DR10_thermal10_noEV,-0.0686740953903832,-0.006404443444291,-220.8011779927256,-55.20029449818139,-1106.344414796331,12208.769621296786,101.94421811922145,67726.57034199884,74901.26932605455,DR + thermal,0.0686740953903832,0.2208011779927256,-11.102425206500454
+0.14,,,,,,,flexibility,,,,,,,,,,thermal10_only,-0.0369741738290958,-0.0034481561619665,-119.99847772780775,-29.999619431951945,-836.0768343316158,7118.507355309906,33.303222661581685,0.0,76092.51470554239,Thermal only,0.0369741738290958,0.11999847772780775,-6.2824305209782905
+0.25,,,,,,,flexibility,,,,,,,,,,DR10_only,-0.0332211529176191,-0.0050367301161141,-124.78041865975683,-31.195104664939663,20200.560060762684,-2595.4025906828465,84.54947082626722,88136.0825678198,0.0,DR only,0.0332211529176191,0.12478041865975684,-17.60515747007984
+0.25,,,,,,,flexibility,,,,,,,,,,DR10_thermal10_noEV,-0.0634030955192566,-0.0096126790496585,-237.84023496300145,-59.46005874075081,45646.84827053384,-8950.097109128692,192.1259125504216,77843.1687935504,86841.09312827699,DR + thermal,0.0634030955192566,0.23784023496300144,-36.696751161405146
+0.25,,,,,,,flexibility,,,,,,,,,,thermal10_only,-0.0341026006177207,-0.0051703682889942,-124.79391854195092,-31.198479635488184,20057.19236124505,-2444.022218799946,84.40011449514623,0.0,88147.87845354564,Thermal only,0.0341026006177207,0.12479391854195092,-17.613170142445103

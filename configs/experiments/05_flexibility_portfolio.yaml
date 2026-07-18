@@ -1,0 +1,31 @@
+﻿experiment_id: E5_flexibility_portfolio
+defaults:
+  dataset_id: xinwu_public
+  spatial_resolution: k100
+  temporal_mode: repday_opt
+  weights_csv: data/xinwu_public/temporal_weights.csv
+  use_existing_weights: true
+  n_rep_days: 8
+matrix:
+  technology_set:
+  - base_with_storage_degradation
+  - base_with_DR05
+  - base_with_DR10
+  - base_with_DR15
+  - base_with_EV_low_smart
+  - base_with_EV_medium_smart
+  - base_with_EV_high_smart
+  - base_with_EV_medium_smart_V2G
+  - base_with_thermal05
+  - base_with_thermal10
+  - base_with_thermal15
+  - base_with_DR10_EV_medium_thermal10
+  - base_with_DR10_EV_medium_thermal10_LDES
+  co2_cap_ratio:
+  - 0.4
+  - 0.25
+  - 0.15
+  - 0.14
+  grid_carbon_scenario:
+  - baseline
+

@@ -1,0 +1,17 @@
+﻿experiment_id: E8_uncertainty_lhs
+defaults:
+  dataset_id: xinwu_public
+  spatial_resolution: k100
+  temporal_mode: repday_opt
+  weights_csv: data/xinwu_public/temporal_weights.csv
+  use_existing_weights: true
+  n_rep_days: 8
+  technology_set: base_with_storage_degradation
+lhs_samples: 150
+matrix:
+  co2_cap_ratio:
+  - 0.25
+  - 0.14
+  grid_carbon_scenario:
+  - baseline
+

@@ -1,0 +1,18 @@
+network_mode,technology_set,fixed_baseline_cap_ratio,actual_emissions_mt,total_system_cost_billion_cny,bess_energy_mwh,pv_mw,wind_mw,edge_count,network_k_nearest,transfer_cap_mw,edge_construction_rule
+copperplate,base_with_DR10_EV_medium_thermal10,0.14,0.6758118298085793,6.893614128509461,12879.054494097183,5178.106565471924,925.0,0,,,not_applicable
+copperplate,base_with_DR10_EV_medium_thermal10,0.25,1.2068068389438915,5.799754947417287,6958.567226933071,4429.235175047176,925.0,0,,,not_applicable
+copperplate,base_with_DR10_EV_medium_thermal10,0.4,1.9308909423102272,5.188782200188661,3318.2047600670107,2973.129202445903,925.0,0,,,not_applicable
+copperplate,base_with_storage_degradation,0.14,0.6758118298085796,6.6326117319458255,11617.003622211105,5178.106565471924,925.0,0,,,not_applicable
+copperplate,base_with_storage_degradation,0.25,1.2068068389438915,5.599273693298596,6591.359924619367,4128.47724976141,925.0,0,,,not_applicable
+copperplate,base_with_storage_degradation,0.4,1.9308909423102256,5.040887171361225,2753.083053362573,2583.2302904860617,925.0,0,,,not_applicable
+node_interface,base_with_DR10_EV_medium_thermal10,0.25,1.2068068389438955,7.0461150674940844,13330.30451849903,4924.844887815095,574.3653568793414,0,,,not_applicable
+node_interface,base_with_DR10_EV_medium_thermal10,0.4,1.9308909423102183,5.628352866191251,5628.218877189902,3750.701611039864,588.4225225803712,0,,,not_applicable
+node_interface,base_with_storage_degradation,0.14,0.6758118298085811,10.722882634181012,31269.0753394945,5126.223180569199,856.7612389004349,0,,,not_applicable
+node_interface,base_with_storage_degradation,0.25,1.2068068389438946,6.595777846292342,11688.97690474659,4772.042311790851,512.293663525492,0,,,not_applicable
+node_interface,base_with_storage_degradation,0.4,1.9308909423102256,5.3709271833666525,5014.923457903852,3467.4239660176904,522.2802722305886,0,,,not_applicable
+spatial_transfer_proxy,base_with_DR10_EV_medium_thermal10,0.14,0.6758118298085807,7.971824956395961,17732.189174653882,5178.106565471924,925.0,199,3.0,30.0,undirected k-nearest-neighbour links from node centroids with uniform transfer-capacity bound
+spatial_transfer_proxy,base_with_DR10_EV_medium_thermal10,0.25,1.2068068389438895,6.112638483659578,8798.431134322262,4556.2716478625625,804.6188221967476,199,3.0,30.0,undirected k-nearest-neighbour links from node centroids with uniform transfer-capacity bound
+spatial_transfer_proxy,base_with_DR10_EV_medium_thermal10,0.4,1.9308909423102232,5.323171482811745,3806.7886560289294,3284.502022867687,824.5084683381662,199,3.0,30.0,undirected k-nearest-neighbour links from node centroids with uniform transfer-capacity bound
+spatial_transfer_proxy,base_with_storage_degradation,0.14,0.6758118298085781,7.531790633519571,16778.67168935755,5178.106565471924,704.3938432273818,199,3.0,30.0,undirected k-nearest-neighbour links from node centroids with uniform transfer-capacity bound
+spatial_transfer_proxy,base_with_storage_degradation,0.25,1.2068068389438895,5.8074927139258925,8227.31472155607,4264.806051973641,747.8752279483659,199,3.0,30.0,undirected k-nearest-neighbour links from node centroids with uniform transfer-capacity bound
+spatial_transfer_proxy,base_with_storage_degradation,0.4,1.930890942310228,5.154449931839928,3165.0895134543607,3069.1713794492607,791.3016941535541,199,3.0,30.0,undirected k-nearest-neighbour links from node centroids with uniform transfer-capacity bound

@@ -1,0 +1,40 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "paper05-assessment"
+version = "0.1.0"
+description = "Reproducible experiment engine for the Paper05 urban decarbonization assessment."
+requires-python = ">=3.11"
+dependencies = [
+  "matplotlib",
+  "numpy",
+  "pandas",
+  "pyarrow",
+  "pyomo",
+  "pyyaml",
+  "scipy",
+]
+
+[project.optional-dependencies]
+test = ["pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.uv]
+package = true
+
+[tool.setuptools]
+package-dir = { "paper05" = "src" }
+packages = [
+  "paper05",
+  "paper05.analysis",
+  "paper05.data",
+  "paper05.experiments",
+  "paper05.extensions",
+  "paper05.model",
+  "paper05.temporal",
+]

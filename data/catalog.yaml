@@ -1,0 +1,842 @@
+schema-version: 1
+datasets:
+  - id: data-xinwu-public-carbon-factors-csv
+    name: "carbon_factors.csv"
+    path: data/xinwu_public/carbon_factors.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 867282
+    sha256: dfbc1744ac0b6331e88c5f58a7a78fe125c9045685fd377384fa2873e7e7aef2
+    description: "Hourly imported-electricity emissions factors by scenario."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-flexibility-parameters-csv
+    name: "flexibility_parameters.csv"
+    path: data/xinwu_public/flexibility_parameters.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 388
+    sha256: c240e4c08b2912fb837f7ef7cd7391581dcee756c2516cbc8077fa2da00644ba
+    description: "Demand-response, EV, and thermal-flexibility parameters."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-grid-interface-by-node-csv
+    name: "grid_interface_by_node.csv"
+    path: data/xinwu_public/grid_interface_by_node.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 4247
+    sha256: 7ebdad0299cd9971fefc015c474760d39ca041d0dc122d65e071c9cf50e8997d
+    description: "Node-level grid-interface capacities and connection costs."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-grid-prices-csv
+    name: "grid_prices.csv"
+    path: data/xinwu_public/grid_prices.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 292530
+    sha256: 83420f8d32d16b9772c8f201e9ffaed6575095a26bdc6092974f924d44e16888
+    description: "Hourly imported-electricity tariff series."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-network-edges-spatial-proxy-csv
+    name: "network_edges_spatial_proxy.csv"
+    path: data/xinwu_public/network_edges_spatial_proxy.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 24359
+    sha256: 59310d5d33f1524398834e0dda2ce8dfbfa6f99a7486327b751ac928e2c2a556
+    description: "Spatial-transfer proxy edges and capacities."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-node-hour-demand-csv
+    name: "node_hour_demand.csv"
+    path: data/xinwu_public/node_hour_demand.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 41790918
+    sha256: f4fe42c2542c0df464a765ba584bffb297b3ce4f2e998b142b4cd26cc2f6cfec
+    description: "Hourly electricity demand by planning node."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-nodes-csv
+    name: "nodes.csv"
+    path: data/xinwu_public/nodes.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 17638
+    sha256: 209195dabf48c2a41eb2e8248059cefa3c69e5524869af63bae2b2143db827a2
+    description: "Planning-node identifiers and descriptors."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-public-input-manifest-csv
+    name: "public_input_manifest.csv"
+    path: data/xinwu_public/public_input_manifest.csv
+    role: release-metadata
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 574
+    sha256: c5e61c0700dbae70fcdb5b9771a5c9ff2b885e52344c2a1509e2a92694856048
+    description: "Row counts and byte sizes for the processed input package."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-pv-availability-by-hour-csv
+    name: "pv_availability_by_hour.csv"
+    path: data/xinwu_public/pv_availability_by_hour.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 37195630
+    sha256: cb22e1e4a54b99c0b2d3ed3c13fa7fe59adba519e077db25269a8cc06622d31f
+    description: "Hourly PV availability by planning node."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-pv-potential-by-node-csv
+    name: "pv_potential_by_node.csv"
+    path: data/xinwu_public/pv_potential_by_node.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 2939
+    sha256: 2c520f66540fe46acb3f7851ce4e69b7cdc0176ab0b4cfc6831ad70e9dd9f9f3
+    description: "Node-level PV technical-capacity bounds."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-representative-periods-csv
+    name: "representative_periods.csv"
+    path: data/xinwu_public/representative_periods.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 223
+    sha256: 35a25fd8d6d852a34c538f67d75e605c1b6b73af6691d12910a36c4a3f28466c
+    description: "Representative-period dates and weights."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-storage-parameters-csv
+    name: "storage_parameters.csv"
+    path: data/xinwu_public/storage_parameters.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 1292
+    sha256: 86897b0ce65bc46231b0bb3017a78f7e8b722c155ea606a49b76b7ba76f9f291
+    description: "Storage technology parameters by family and scenario."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-technology-costs-csv
+    name: "technology_costs.csv"
+    path: data/xinwu_public/technology_costs.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 1759
+    sha256: 2936e427556b7b6a17ad0e15cfb6cf62b3ab72d737a6630240148e76650a7196
+    description: "Technology cost parameters by scenario."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-temporal-weights-csv
+    name: "temporal_weights.csv"
+    path: data/xinwu_public/temporal_weights.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 4621
+    sha256: ff15793772b0707509b8b7890c1f3afdd93d3afaa424eff21ebbc3c7a2d6fae7
+    description: "Hourly weights for representative-period configurations."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-uncertainty-ranges-csv
+    name: "uncertainty_ranges.csv"
+    path: data/xinwu_public/uncertainty_ranges.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 576
+    sha256: 0485e65105b0c27df84c74aa467e34453bb771368ddf8a8bd42690ea742ee9f2
+    description: "Parameter bounds for uncertainty configurations."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-wind-availability-by-hour-csv
+    name: "wind_availability_by_hour.csv"
+    path: data/xinwu_public/wind_availability_by_hour.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 43632632
+    sha256: 06e12c6350c55eeb93db20abf155c545c9469408d527003b9ca50f30cc59b500
+    description: "Hourly wind availability by planning node."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: data-xinwu-public-wind-potential-by-node-csv
+    name: "wind_potential_by_node.csv"
+    path: data/xinwu_public/wind_potential_by_node.csv
+    role: model-input
+    source: "Processed Xinwu study input"
+    license: MIT
+    redistributable: true
+    size: 2943
+    sha256: acde5f1d68158750a0e1f8226879703780d2fada112c15d2b566fb0ad4df5285
+    description: "Node-level wind technical-capacity bounds."
+    generation_script: null
+    notes: "Schema: docs/input_schema.md"
+  - id: results-summary-public-reported-fig-r47-04-absolute-envelope-system-composition-source-csv
+    name: "fig_R47_04_absolute_envelope_system_composition_source.csv"
+    path: results/summary_public/reported/fig_R47_04_absolute_envelope_system_composition_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 33844
+    sha256: 4d503ce0ace4eee77c6398e595c3f3d84bcf3ce2b026a99ccf600058b548ed80
+    description: "Reported machine-readable result table: fig_R47_04_absolute_envelope_system_composition_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-fig-r47-05-temporal-robustness-stress-source-csv
+    name: "fig_R47_05_temporal_robustness_stress_source.csv"
+    path: results/summary_public/reported/fig_R47_05_temporal_robustness_stress_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 18081
+    sha256: 5be30e3eca5fdd8df3bae2e889f225760480dc2b78a2856dfd4c3bf77cf21118
+    description: "Reported machine-readable result table: fig_R47_05_temporal_robustness_stress_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-fig-r47-06-storage-lifecycle-ldes-source-csv
+    name: "fig_R47_06_storage_lifecycle_ldes_source.csv"
+    path: results/summary_public/reported/fig_R47_06_storage_lifecycle_ldes_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 28405
+    sha256: 1b290e9f5e4541ae92b2d9b6bde24adbe55df662198b512cee3c8c1aab61b08f
+    description: "Reported machine-readable result table: fig_R47_06_storage_lifecycle_ldes_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-fig-r47-07-flexibility-uncertainty-source-csv
+    name: "fig_R47_07_flexibility_uncertainty_source.csv"
+    path: results/summary_public/reported/fig_R47_07_flexibility_uncertainty_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 4242
+    sha256: b7ac465c77998306b5f730c1d37f5565c69c2753fef5a4f0c7ad5954263af798
+    description: "Reported machine-readable result table: fig_R47_07_flexibility_uncertainty_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-fig-r47-08-mac-bottleneck-source-csv
+    name: "fig_R47_08_mac_bottleneck_source.csv"
+    path: results/summary_public/reported/fig_R47_08_mac_bottleneck_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 73971
+    sha256: 1616455c6598b126dea7a40e1291f5406a02adc8fb884ba25ec8757a8dd9637c
+    description: "Reported machine-readable result table: fig_R47_08_mac_bottleneck_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-fig-r47-09-spatial-network-validation-source-csv
+    name: "fig_R47_09_spatial_network_validation_source.csv"
+    path: results/summary_public/reported/fig_R47_09_spatial_network_validation_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 621758
+    sha256: 5a54cdc552c0a4472ab5de77efa3a0e0ce8029e896b01eca546b354ca1fe4920
+    description: "Reported machine-readable result table: fig_R47_09_spatial_network_validation_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-fig-r47-10-typology-transferability-source-csv
+    name: "fig_R47_10_typology_transferability_source.csv"
+    path: results/summary_public/reported/fig_R47_10_typology_transferability_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 48615
+    sha256: cc92911334d79ac7493c9360037ae311433fb2c11a63eec0f7d4b910ed802c1f
+    description: "Reported machine-readable result table: fig_R47_10_typology_transferability_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-fig-r47-s1-full-storage-calendar-sensitivity-source-csv
+    name: "fig_R47_S1_full_storage_calendar_sensitivity_source.csv"
+    path: results/summary_public/reported/fig_R47_S1_full_storage_calendar_sensitivity_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 25551
+    sha256: 58f5937c15f1c8f8e673167b3fdd298767e8701f64072521a8e6f88df8e25ddb
+    description: "Reported machine-readable result table: fig_R47_S1_full_storage_calendar_sensitivity_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-fig-r47-s2-full-uncertainty-prcc-source-csv
+    name: "fig_R47_S2_full_uncertainty_prcc_source.csv"
+    path: results/summary_public/reported/fig_R47_S2_full_uncertainty_prcc_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 7780
+    sha256: 01b6bd5a242d3bf9958190e1df33d627fb9e02844309c9b39cae5586876a7705
+    description: "Reported machine-readable result table: fig_R47_S2_full_uncertainty_prcc_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-fig-r47-s3-full-stress-windows-cap-relaxation-source-csv
+    name: "fig_R47_S3_full_stress_windows_cap_relaxation_source.csv"
+    path: results/summary_public/reported/fig_R47_S3_full_stress_windows_cap_relaxation_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 12610
+    sha256: 4b0a4908fded835bd8a982256a288ccce34e30103b3e7ac981ae15b8a614d16c
+    description: "Reported machine-readable result table: fig_R47_S3_full_stress_windows_cap_relaxation_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-fig-r47-s4-invalid-rows-network-edge-summary-source-csv
+    name: "fig_R47_S4_invalid_rows_network_edge_summary_source.csv"
+    path: results/summary_public/reported/fig_R47_S4_invalid_rows_network_edge_summary_source.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 481746
+    sha256: 847db71566ac63c746a3528d1aa91d67314ae3f99bacf96f4aa749c16cee0c74
+    description: "Reported machine-readable result table: fig_R47_S4_invalid_rows_network_edge_summary_source."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2-dual-mac-revised-csv
+    name: "R2_dual_mac_revised.csv"
+    path: results/summary_public/reported/R2_dual_mac_revised.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 35962
+    sha256: fc6f15fb164d1a68881872d0d20c7da6d15fe7325356d8dded6402e68a72e874
+    description: "Reported machine-readable result table: R2_dual_mac_revised."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2-finite-difference-mac-revised-csv
+    name: "R2_finite_difference_mac_revised.csv"
+    path: results/summary_public/reported/R2_finite_difference_mac_revised.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 19995
+    sha256: 2e175c844f7ed884b040d80b857d13bf2fbe44b601383fcd9c2210a0a382293d
+    description: "Reported machine-readable result table: R2_finite_difference_mac_revised."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2-network-proxy-edges-csv
+    name: "R2_network_proxy_edges.csv"
+    path: results/summary_public/reported/R2_network_proxy_edges.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 446672
+    sha256: 06c8429c36f21863ae157e3cf244908946577ecda7433ef13e3fc31ea4f2c3a4
+    description: "Reported machine-readable result table: R2_network_proxy_edges."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2-python-orchestration-errors-csv
+    name: "R2_python_orchestration_errors.csv"
+    path: results/summary_public/reported/R2_python_orchestration_errors.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 38
+    sha256: 2deb1f9860d8822572cb7a2cb93f06703e07aad9f92ba9f7c4b1ff3f2c31d1e5
+    description: "Reported machine-readable result table: R2_python_orchestration_errors."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2-revised-deterministic-all-runs-csv
+    name: "R2_revised_deterministic_all_runs.csv"
+    path: results/summary_public/reported/R2_revised_deterministic_all_runs.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 118752
+    sha256: d78cde5448ce0c237060a3a4abe28f6b57f1ebf774e70b4388602b4f41ab1f2f
+    description: "Reported machine-readable result table: R2_revised_deterministic_all_runs."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2-revised-deterministic-planned-runs-csv
+    name: "R2_revised_deterministic_planned_runs.csv"
+    path: results/summary_public/reported/R2_revised_deterministic_planned_runs.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 44683
+    sha256: 8ca5e6580c973254c0018834354b399c4be03b4ccbbaa919d35ce04fbbdbde2a
+    description: "Reported machine-readable result table: R2_revised_deterministic_planned_runs."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2-revised-deterministic-valid-runs-csv
+    name: "R2_revised_deterministic_valid_runs.csv"
+    path: results/summary_public/reported/R2_revised_deterministic_valid_runs.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 109638
+    sha256: 0a4fa8dba98cecd315d0dbde5f1cb1516908d5e32ad1e7bd03f7d1a4c055c365
+    description: "Reported machine-readable result table: R2_revised_deterministic_valid_runs."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2-validity-by-family-csv
+    name: "R2_validity_by_family.csv"
+    path: results/summary_public/reported/R2_validity_by_family.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 421
+    sha256: c620b5beb7cda564dcb490fb03d23f6173bf1264bfaac53582018fe1b2fcb709
+    description: "Reported machine-readable result table: R2_validity_by_family."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2a-fixed-absolute-cap-core-frontier-csv
+    name: "R2A_fixed_absolute_cap_core_frontier.csv"
+    path: results/summary_public/reported/R2A_fixed_absolute_cap_core_frontier.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 18976
+    sha256: f3ea3015db3166a38ffe950ec76d1734eafb7a421342a5933b94f2a27e344219
+    description: "Reported machine-readable result table: R2A_fixed_absolute_cap_core_frontier."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2b-storage-calendar-sensitivity-csv
+    name: "R2B_storage_calendar_sensitivity.csv"
+    path: results/summary_public/reported/R2B_storage_calendar_sensitivity.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 42849
+    sha256: 02e0a6cb5e6076086e41e6b082d19aed0d1b4c2557d003d7be0ff557807877e6
+    description: "Reported machine-readable result table: R2B_storage_calendar_sensitivity."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2c-flexibility-ablation-ramped-csv
+    name: "R2C_flexibility_ablation_ramped.csv"
+    path: results/summary_public/reported/R2C_flexibility_ablation_ramped.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 26410
+    sha256: 44e50aaae34ca306b0049deeeb34b7e07a964cb58cbc4faab7136ea21ca15da3
+    description: "Reported machine-readable result table: R2C_flexibility_ablation_ramped."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2c-flexibility-ablation-ramped-valid-only-csv
+    name: "R2C_flexibility_ablation_ramped_valid_only.csv"
+    path: results/summary_public/reported/R2C_flexibility_ablation_ramped_valid_only.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 23678
+    sha256: fb4def29714b91e4fbb15439ae758a8a447d21e0bef21e0c815a185fffa2448a
+    description: "Reported machine-readable result table: R2C_flexibility_ablation_ramped_valid_only."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2d-network-abstraction-revised-csv
+    name: "R2D_network_abstraction_revised.csv"
+    path: results/summary_public/reported/R2D_network_abstraction_revised.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 24200
+    sha256: 5591fb3517925c6e3fc2d7c5cdd3c78efa247dce1ff8be97a044c6c5b982f814
+    description: "Reported machine-readable result table: R2D_network_abstraction_revised."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2d-network-abstraction-revised-valid-only-csv
+    name: "R2D_network_abstraction_revised_valid_only.csv"
+    path: results/summary_public/reported/R2D_network_abstraction_revised_valid_only.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 22841
+    sha256: ddc38923379318410baf6d217ef87936e870b59e147787e7b0d0c51db87ee5c9
+    description: "Reported machine-readable result table: R2D_network_abstraction_revised_valid_only."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2e-spatial-resolution-revised-csv
+    name: "R2E_spatial_resolution_revised.csv"
+    path: results/summary_public/reported/R2E_spatial_resolution_revised.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 12593
+    sha256: 8f8bdb7a3e320294fa3217d3c7607149b750cb78414d91b05a34f378b699155f
+    description: "Reported machine-readable result table: R2E_spatial_resolution_revised."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r2e-spatial-resolution-revised-valid-only-csv
+    name: "R2E_spatial_resolution_revised_valid_only.csv"
+    path: results/summary_public/reported/R2E_spatial_resolution_revised_valid_only.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 7570
+    sha256: 1159c215b5c1c379dfed8e5c976efaac9420b17c3f71f342c19a16677c46d8e0
+    description: "Reported machine-readable result table: R2E_spatial_resolution_revised_valid_only."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r36-stress-period-failure-diagnosis-csv
+    name: "R36_stress_period_failure_diagnosis.csv"
+    path: results/summary_public/reported/R36_stress_period_failure_diagnosis.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 2893
+    sha256: 2a72345fe366c1f2bea0d976007f99f4740d9debd8eafe3e0f8294c1ba27a4ad
+    description: "Reported machine-readable result table: R36_stress_period_failure_diagnosis."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r36a-fixed-capacity-cap-relaxation-csv
+    name: "R36A_fixed_capacity_cap_relaxation.csv"
+    path: results/summary_public/reported/R36A_fixed_capacity_cap_relaxation.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 11421
+    sha256: 28ab2bc7a7e6142f80316f134125069ecbb8f77b97bd8b3ce29f00c28db3b53b
+    description: "Reported machine-readable result table: R36A_fixed_capacity_cap_relaxation."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r36a-fixed-capacity-cap-relaxation-valid-only-csv
+    name: "R36A_fixed_capacity_cap_relaxation_valid_only.csv"
+    path: results/summary_public/reported/R36A_fixed_capacity_cap_relaxation_valid_only.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 3744
+    sha256: 130c3e8009e15edba51df42a92f9ac671172e773a312d52964954ada6b36bc9e
+    description: "Reported machine-readable result table: R36A_fixed_capacity_cap_relaxation_valid_only."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r36b-stress-period-capacity-augmentation-vs-repday-csv
+    name: "R36B_stress_period_capacity_augmentation_vs_repday.csv"
+    path: results/summary_public/reported/R36B_stress_period_capacity_augmentation_vs_repday.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 2584
+    sha256: a3a6831c944ffabc77b611ed93a4a01939bcf9c1b502f8aad28c7cc7d5b59908
+    description: "Reported machine-readable result table: R36B_stress_period_capacity_augmentation_vs_repday."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r36b-stress-period-capacity-expansion-csv
+    name: "R36B_stress_period_capacity_expansion.csv"
+    path: results/summary_public/reported/R36B_stress_period_capacity_expansion.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 2556
+    sha256: 5bd1c80c1357888eeb599f5884ce1d93a54a9af3c348b773fa9eb7bbcf8c986a
+    description: "Reported machine-readable result table: R36B_stress_period_capacity_expansion."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r36b-stress-period-capacity-expansion-valid-only-csv
+    name: "R36B_stress_period_capacity_expansion_valid_only.csv"
+    path: results/summary_public/reported/R36B_stress_period_capacity_expansion_valid_only.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 1066
+    sha256: e2a4ea9a9d54b7f138adebe98d8261b7d4a9f5a2c63be06867eb4abbe9b3ae8e
+    description: "Reported machine-readable result table: R36B_stress_period_capacity_expansion_valid_only."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3-flexibility-individual-contribution-csv
+    name: "R3_flexibility_individual_contribution.csv"
+    path: results/summary_public/reported/R3_flexibility_individual_contribution.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 2458
+    sha256: 5c9575fe941e7ff714c4ee6072db96341ad64edf742bbc139566ed0e290cf272
+    description: "Reported machine-readable result table: R3_flexibility_individual_contribution."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3-ldes-cost-reduction-decomposition-csv
+    name: "R3_ldes_cost_reduction_decomposition.csv"
+    path: results/summary_public/reported/R3_ldes_cost_reduction_decomposition.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 2411
+    sha256: df8bd1fd032550e152838b8beac6ee66eb339420931714253a3a7aa3b315f7bb
+    description: "Reported machine-readable result table: R3_ldes_cost_reduction_decomposition."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3-network-proxy-reproducibility-summary-csv
+    name: "R3_network_proxy_reproducibility_summary.csv"
+    path: results/summary_public/reported/R3_network_proxy_reproducibility_summary.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 3457
+    sha256: 8b1f98f5ec6c606fc906cf1a7f077456ddc3cb54ba51bf37e223d4437e3f593d
+    description: "Reported machine-readable result table: R3_network_proxy_reproducibility_summary."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3-renewable-potential-audit-csv
+    name: "R3_renewable_potential_audit.csv"
+    path: results/summary_public/reported/R3_renewable_potential_audit.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 651
+    sha256: 9432006fbe92b6b78323b507715b372d9782fb9cd69dc33bbd4bc45a29da34ed
+    description: "Reported machine-readable result table: R3_renewable_potential_audit."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3-spatial-aggregation-construction-audit-csv
+    name: "R3_spatial_aggregation_construction_audit.csv"
+    path: results/summary_public/reported/R3_spatial_aggregation_construction_audit.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 1361
+    sha256: d76e3d5ac4d00957675e865d4203525eb034f0c29086b2e0b166631e7da43014
+    description: "Reported machine-readable result table: R3_spatial_aggregation_construction_audit."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3-spatial-resolution-validity-interpretation-csv
+    name: "R3_spatial_resolution_validity_interpretation.csv"
+    path: results/summary_public/reported/R3_spatial_resolution_validity_interpretation.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 2586
+    sha256: 3982d01492921caef8895c77fcce9fc35eae1bc5955c6b9ce67f0ab13349f408
+    description: "Reported machine-readable result table: R3_spatial_resolution_validity_interpretation."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3-transferability-indices-xinwu-csv
+    name: "R3_transferability_indices_xinwu.csv"
+    path: results/summary_public/reported/R3_transferability_indices_xinwu.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 356
+    sha256: 314b9915ffcb07ba71570bc1cf8157b45f68c8c570e709ad68650a686f19461d
+    description: "Reported machine-readable result table: R3_transferability_indices_xinwu."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3a-transferability-archetype-frontier-csv
+    name: "R3A_transferability_archetype_frontier.csv"
+    path: results/summary_public/reported/R3A_transferability_archetype_frontier.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 22745
+    sha256: 58b436e12ce951bf82559476c2290f749aedb1d1ac655bb2c0d53e5549fb039f
+    description: "Reported machine-readable result table: R3A_transferability_archetype_frontier."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3a-transferability-archetype-frontier-valid-only-csv
+    name: "R3A_transferability_archetype_frontier_valid_only.csv"
+    path: results/summary_public/reported/R3A_transferability_archetype_frontier_valid_only.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 15539
+    sha256: a62dbbf822434a35df7b060424c39d69da03d843b145a4642b651cb9beb2cff9
+    description: "Reported machine-readable result table: R3A_transferability_archetype_frontier_valid_only."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3a-transferability-archetype-shift-csv
+    name: "R3A_transferability_archetype_shift.csv"
+    path: results/summary_public/reported/R3A_transferability_archetype_shift.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 4707
+    sha256: b84f36b435fb63721fe767ff442f788819a047212dd74b6662c05ac8f28a0f70
+    description: "Reported machine-readable result table: R3A_transferability_archetype_shift."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3b-constraint-relaxation-1pct-csv
+    name: "R3B_constraint_relaxation_1pct.csv"
+    path: results/summary_public/reported/R3B_constraint_relaxation_1pct.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 4211
+    sha256: e138ba354d95e1c3d48213558571efffc5406db685545adb03968abd94ca4c8e
+    description: "Reported machine-readable result table: R3B_constraint_relaxation_1pct."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3c-chronological-stress-period-validation-csv
+    name: "R3C_chronological_stress_period_validation.csv"
+    path: results/summary_public/reported/R3C_chronological_stress_period_validation.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 422
+    sha256: 002de2f4508e846b92deb08b16f7944bd125daaec00d49bd5a52b8cd4daf561c
+    description: "Reported machine-readable result table: R3C_chronological_stress_period_validation."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3c-chronological-stress-period-validation-unblocked-csv
+    name: "R3C_chronological_stress_period_validation_unblocked.csv"
+    path: results/summary_public/reported/R3C_chronological_stress_period_validation_unblocked.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 3794
+    sha256: 4b83ba2872a3067f862d8feaa1c0c263db6ca820996a1f0a59cfd36f22891a5f
+    description: "Reported machine-readable result table: R3C_chronological_stress_period_validation_unblocked."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3c-source-capacity-refresh-csv
+    name: "R3C_source_capacity_refresh.csv"
+    path: results/summary_public/reported/R3C_source_capacity_refresh.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 561
+    sha256: c2afbe3f581715d5643b121e98950cba3843fd723a091892074346cca9e511b5
+    description: "Reported machine-readable result table: R3C_source_capacity_refresh."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3c-stress-windows-csv
+    name: "R3C_stress_windows.csv"
+    path: results/summary_public/reported/R3C_stress_windows.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 569
+    sha256: ddfde50c6445634d322cb3b105a73eee0a4f82db14670930b91fc767df042526
+    description: "Reported machine-readable result table: R3C_stress_windows."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3d-lhs-outputs-csv
+    name: "R3D_lhs_outputs.csv"
+    path: results/summary_public/reported/R3D_lhs_outputs.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 168472
+    sha256: 9614dc89e2a692af84cd90236881c264e3e3a6aebac24998ea2d4e3998030cd7
+    description: "Reported machine-readable result table: R3D_lhs_outputs."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3d-lhs-samples-csv
+    name: "R3D_lhs_samples.csv"
+    path: results/summary_public/reported/R3D_lhs_samples.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 33046
+    sha256: 80173b701044385e5f52d2a6b45f96e06243d552c295c43102c22fff88ad9188
+    description: "Reported machine-readable result table: R3D_lhs_samples."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3d-prcc-by-target-csv
+    name: "R3D_prcc_by_target.csv"
+    path: results/summary_public/reported/R3D_prcc_by_target.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 7846
+    sha256: 8e211de82cecad420dfce96c4c206e0af4e6417acbc660cf5e5eae6f3655b63c
+    description: "Reported machine-readable result table: R3D_prcc_by_target."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: results-summary-public-reported-r3d-uncertainty-top5-by-target-csv
+    name: "R3D_uncertainty_top5_by_target.csv"
+    path: results/summary_public/reported/R3D_uncertainty_top5_by_target.csv
+    role: reported-result
+    source: "Accepted-study reported result"
+    license: MIT
+    redistributable: true
+    size: 3550
+    sha256: 4ae6b8082a07a351dce2455ac55352048e82d182d5b523492e5ee935a86ff05b
+    description: "Reported machine-readable result table: R3D_uncertainty_top5_by_target."
+    generation_script: null
+    notes: "Schema group: docs/results_schema.md"
+  - id: tests-fixtures-sample-dispatch-csv
+    name: "sample_dispatch.csv"
+    path: tests/fixtures/sample_dispatch.csv
+    role: test-fixture
+    source: "Public test fixture"
+    license: MIT
+    redistributable: true
+    size: 421
+    sha256: bb03e45b3780d7df3244faced5b871e321dfb143baf6327973feaedd8b1f8c90
+    description: "Compact dispatch data used by the public test suite."
+    generation_script: null
+    notes: "Used by tests."

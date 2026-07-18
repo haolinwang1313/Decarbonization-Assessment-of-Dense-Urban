@@ -1,0 +1,17 @@
+file,rows,bytes
+carbon_factors.csv,26280,867282
+flexibility_parameters.csv,9,388
+grid_interface_by_node.csv,100,4247
+grid_prices.csv,8760,292530
+network_edges_spatial_proxy.csv,199,24359
+node_hour_demand.csv,876000,41790918
+nodes.csv,100,17638
+pv_availability_by_hour.csv,876000,37195630
+pv_potential_by_node.csv,100,2939
+representative_periods.csv,8,223
+storage_parameters.csv,35,1292
+technology_costs.csv,42,1759
+temporal_weights.csv,192,4621
+uncertainty_ranges.csv,14,576
+wind_availability_by_hour.csv,876000,43632632
+wind_potential_by_node.csv,100,2943

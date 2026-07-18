@@ -1,0 +1,5 @@
+﻿experiment_id: E11_data_validation
+dataset_id: xinwu_public
+spatial_resolution: k100
+grid_carbon_scenario: baseline
+

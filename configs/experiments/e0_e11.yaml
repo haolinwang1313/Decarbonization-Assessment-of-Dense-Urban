@@ -1,0 +1,65 @@
+﻿schema_version: 1
+matrix_id: paper05_e0_e11
+description: Paper05 runtime manifest for the PRD-required E0-E11 experiment families.
+
+experiments:
+  - id: E0
+    kind: matrix
+    file: 00_legacy_audit.yaml
+    purpose: Legacy audit and corrected baseline rerun.
+
+  - id: E1
+    kind: matrix
+    file: 01_reference_floor.yaml
+    purpose: Reference emissions and feasibility floor.
+
+  - id: E2
+    kind: matrix
+    file: 02_8760_validation.yaml
+    purpose: Representative-period sensitivity and selected chronological stress diagnostics.
+
+  - id: E3
+    kind: matrix
+    file: 03_repday_sensitivity.yaml
+    purpose: Representative-day sensitivity.
+
+  - id: E4
+    kind: matrix
+    file: 04_storage_lifecycle.yaml
+    purpose: Storage lifecycle and LDES.
+
+  - id: E5
+    kind: matrix
+    file: 05_flexibility_portfolio.yaml
+    purpose: Demand response, EV, and thermal flexibility.
+
+  - id: E6
+    kind: matrix
+    file: 06_network_spatial_robustness.yaml
+    purpose: Network abstraction robustness.
+
+  - id: E7
+    kind: matrix
+    file: 07_spatial_aggregation.yaml
+    purpose: Spatial aggregation robustness.
+
+  - id: E8
+    kind: matrix
+    file: 07_uncertainty_lhs.yaml
+    purpose: Input uncertainty LHS.
+
+  - id: E9
+    kind: matrix
+    file: 08_dual_bottleneck.yaml
+    purpose: Dual variables and bottleneck decomposition.
+
+  - id: E10
+    kind: matrix
+    file: 09_node_typology.yaml
+    purpose: Node typology.
+
+  - id: E11
+    kind: validation
+    file: 10_data_validation.yaml
+    purpose: Input data validation report.
+

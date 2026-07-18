@@ -1,0 +1,24 @@
+﻿experiment_id: E4_storage_lifecycle
+defaults:
+  dataset_id: xinwu_public
+  spatial_resolution: k100
+  temporal_mode: repday_opt
+  weights_csv: data/xinwu_public/temporal_weights.csv
+  use_existing_weights: true
+  n_rep_days: 8
+matrix:
+  storage_model:
+  - legacy_no_degradation
+  - liion_4h_with_degradation
+  - liion_8h_with_degradation
+  - liion_8h_with_degradation_plus_LDES
+  co2_cap_ratio:
+  - 1.0
+  - 0.4
+  - 0.25
+  - 0.15
+  - 0.14
+  grid_carbon_scenario:
+  - baseline
+  - '2030'
+
